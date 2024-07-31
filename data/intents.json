@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Oi", "Olá", "Tudo bem?", "Bom dia", "Boa tarde", "Boa noite", "E aí", "Como vai?", "Oi, tudo bom?", "Oi, tudo bem?", "Olá, como vai?"],
+      "responses": ["Olá!", "Oi, tudo bem?", "Como posso ajudar?", "Bom dia! Como posso ajudar você?", "Boa tarde! Em que posso ajudar?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até logo", "Adeus", "Até mais", "Nos vemos", "Até mais tarde"],
+      "responses": ["Tchau!", "Até mais!", "Adeus!", "Nos vemos em breve!"]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["Obrigado", "Obrigada", "Valeu", "Agradeço", "Muito obrigado", "Muito obrigada", "Grato", "Grata"],
+      "responses": ["De nada!", "Por nada!", "À disposição!", "Fico feliz em ajudar!", "Sempre à disposição!"]
+    },
+    {
+      "tag": "pergunta_horario",
+      "patterns": ["Que horas são?", "Qual é a hora?", "Me diga as horas", "Hora atual", "Pode me dizer a hora?"],
+      "responses": ["{nome}, a hora atual é {hora}.", "A hora atual é {hora}."]
+    },
+    {
+      "tag": "informacao",
+      "patterns": ["Me conte sobre você", "O que você faz?", "Qual é o seu propósito?", "O que você sabe?", "Fale mais sobre você"],
+      "responses": ["Sou um chatbot criado para ajudar com suas perguntas.", "Meu propósito é fornecer informações e suporte.", "Posso responder perguntas e fornecer informações sobre diversos tópicos.", "Sou um bot que lhe oferece informação para suas perguntas."]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["Preciso de ajuda", "Pode me ajudar?", "Como posso resolver isso?", "Estou com dificuldades", "Me ajude com isso"],
+      "responses": ["Claro, em que posso ajudar?", "Estou aqui para ajudar. Qual é o problema?", "Descreva o que você precisa, e farei o meu melhor para ajudar."]
+    },
+    {
+      "tag": "erro",
+      "patterns": ["Houve um erro", "Algo deu errado", "Não funcionou", "Erro", "Tive um problema"],
+      "responses": ["Desculpe pelo inconveniente. Ocorreu um erro.", "Estamos enfrentando problemas técnicos. Tente novamente mais tarde.", "Por favor, tente novamente mais tarde."]
+    },
+    {
+      "tag": "nome_usuario",
+      "patterns": ["Meu nome é {nome}", "Eu me chamo {nome}", "Pode me chamar de {nome}", "Meu nome é {nome}", "Eu sou {nome}"],
+      "responses": ["Prazer em te conhecer, {nome}!", "Olá, {nome}! Como posso ajudar você?", "Oi, {nome}! O que posso fazer por você hoje?"]
+    }
+  ]
+}
